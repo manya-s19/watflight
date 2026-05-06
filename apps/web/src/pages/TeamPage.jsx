@@ -14,14 +14,14 @@ const TeamPage = () => {
     {
       name: 'Jackie',
       role: 'Team Lead',
-      bio: 'Guiding the overall vision and strategy of WATFlight, ensuring cross-functional collaboration and engineering excellence.',
+      bio: 'Guiding the vision WATFlight, ensuring collaboration and engineering excellence.',
       image: '',
       color: 'primary'
     },
     {
       name: 'Manya',
       role: 'Software Lead',
-      bio: 'Leading the development of autonomous flight systems, telemetry analysis, and simulation software.',
+      bio: 'Leading the development of simulation software and integration across projects.',
       image: '',
       color: 'secondary'
     },
@@ -35,7 +35,7 @@ const TeamPage = () => {
     {
       name: 'Hiram',
       role: 'Design Lead',
-      bio: 'Coming Soon. Managing aerodynamics, CAD modeling, and overall vehicle architecture.',
+      bio: 'Managing aerodynamics, CAD modeling, and overall vehicle architecture.',
       image: '',
       color: 'muted'
     }
