@@ -7,32 +7,33 @@ import TeamMemberCard from '@/components/TeamMemberCard.jsx';
 import AnimatedSection from '@/components/AnimatedSection.jsx';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { Link } from 'react-router-dom';
 
 const TeamPage = () => {
   const teamLeads = [
     {
-      name: 'Jackie Shao',
+      name: 'Jackie',
       role: 'Team Lead',
       bio: 'Guiding the overall vision and strategy of WATFlight, ensuring cross-functional collaboration and engineering excellence.',
       image: '',
       color: 'primary'
     },
     {
-      name: 'Manya Singla',
+      name: 'Manya',
       role: 'Software Lead',
       bio: 'Leading the development of autonomous flight systems, telemetry analysis, and simulation software.',
       image: '',
       color: 'secondary'
     },
     {
-      name: 'TBD',
+      name: 'Shaofu',
       role: 'Technical Lead',
-      bio: 'Coming Soon. Overseeing mechanical design, propulsion systems, and structural integrity.',
+      bio: 'Overseeing mechanical design, propulsion systems, and structural integrity.',
       image: '',
       color: 'accent'
     },
     {
-      name: 'TBD',
+      name: 'Hiram',
       role: 'Design Lead',
       bio: 'Coming Soon. Managing aerodynamics, CAD modeling, and overall vehicle architecture.',
       image: '',
