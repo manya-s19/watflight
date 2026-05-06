@@ -10,7 +10,7 @@
 		"lint": "concurrently --raw \"npm run lint --prefix apps/web\"",
 		"preview": "vite preview",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d dist/apps/web"
 	},
 	"devDependencies": {
 		"concurrently": "^9.1.2"
