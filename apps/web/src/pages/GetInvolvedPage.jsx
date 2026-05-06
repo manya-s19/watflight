@@ -105,7 +105,7 @@ const GetInvolvedPage = () => {
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <span className="text-secondary mt-1">•</span>
-                      <span>Brand visibility at events, competitions, and more</span>
+                      <span>Brand visibility at events, competitions, showcases, and more</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-secondary mt-1">•</span>
