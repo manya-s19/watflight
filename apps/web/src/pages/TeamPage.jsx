@@ -37,7 +37,7 @@ const TeamPage = () => {
       role: 'Design Lead',
       bio: 'Managing aerodynamics, CAD modeling, and overall vehicle architecture.',
       image: '',
-      color: 'muted'
+      color: 'dark'
     }
   ];
 
@@ -110,7 +110,8 @@ const TeamPage = () => {
                   primary: 'bg-primary text-primary-foreground ring-primary/30',
                   secondary: 'bg-secondary text-secondary-foreground ring-secondary/30',
                   accent: 'bg-accent text-accent-foreground ring-accent/30',
-                  muted: 'bg-muted text-muted-foreground ring-muted/30'
+                  muted: 'bg-muted text-muted-foreground ring-muted/30',
+                  dark: 'bg-[#343633] text-white ring-[#343633]/30'
                 };
                 
                 return (
