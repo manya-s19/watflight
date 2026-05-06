@@ -11,7 +11,7 @@ import GetInvolvedPage from './pages/GetInvolvedPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/watflight">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
