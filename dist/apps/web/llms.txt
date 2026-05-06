@@ -1,0 +1,6 @@
+## Pages
+- [About Us - WATFlight](/about): Learn about WATFlight
+- [Our Team - WATFlight](/team): Meet the talented engineering students behind WATFlight
+- [Projects - WATFlight](/projects): Explore WATFlight
+- [Sponsors - WATFlight](/sponsors): Meet the companies and organizations supporting WATFlight
+- [WATFlight - Advancing Aerospace Innovation](/home): Student-led aerospace engineering team at the University of Waterloo, building the future of flight through innovative UAV and propulsion projects.
