@@ -2,10 +2,22 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="generator" content="Hostinger Horizons" />
+		<link rel="icon" type="image/svg+xml" href="/watflight/vite.svg" />
+		<meta name="generator" content="Waterloo" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>WATFlight</title>
+		<script>
+  			(function(l) {
+    			if (l.search[1] === '/') {
+      				var decoded = l.search.slice(1).split('&').map(function(s) {
+        			return s.replace(/~and~/g, '&')
+      			}).join('?');
+      			window.history.replaceState(null, null,
+        		l.pathname.slice(0, -1) + decoded + l.hash
+      			);
+    		}
+  			}(window.location))
+		</script>
 		<script type="module" crossorigin src="/watflight/assets/index-BELax8k6.js"></script>
 		<link rel="stylesheet" crossorigin href="/watflight/assets/index-B3kJrsBT.css">
 		<script type="module">
