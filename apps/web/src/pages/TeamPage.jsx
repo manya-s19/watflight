@@ -34,7 +34,7 @@ const TeamPage = () => {
     },
     {
       name: 'Hiram',
-      role: 'Design Lead',
+      role: 'Hardware Lead',
       bio: 'Managing aerodynamics, CAD modeling, and overall vehicle architecture.',
       image: '',
       color: 'dark'
