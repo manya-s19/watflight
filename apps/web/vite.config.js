@@ -294,6 +294,7 @@ export default defineConfig({
 		react(),
 		addTransformIndexHtml
 	],
+	base: "/watflight",
 	server: {
 		port: 3000,
 		cors: true,
