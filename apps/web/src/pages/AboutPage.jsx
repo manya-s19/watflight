@@ -8,12 +8,8 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const AboutPage = () => {
   const timeline = [
-    { year: '2019', event: 'WATFlight founded by aerospace engineering students' },
-    { year: '2020', event: 'First successful autonomous flight demonstration' },
-    { year: '2021', event: 'Expanded to 30+ members across multiple disciplines' },
-    { year: '2022', event: 'Won regional UAV competition with hybrid propulsion system' },
-    { year: '2023', event: 'Launched advanced composites research program' },
-    { year: '2024', event: 'Achieved 47 active members and 12 completed projects' },
+    { year: '2025', event: 'WATFlight founded by Waterloo students' },
+    { year: '2026', event: 'Expanded member community across multiple disciplines' },
     { year: '2027', event: 'Targeting the Airbus Fly Your Ideas Challenge with next-gen UAV concepts' }
   ];
 
