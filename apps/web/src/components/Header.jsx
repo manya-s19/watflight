@@ -41,13 +41,13 @@ const Header = () => {
         animate={{ opacity: isSolid ? 1 : 0 }}
         transition={{ duration: 0.3 }}
       />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center gap-3 group transition-transform duration-300 hover:scale-105">
             <img 
               src="https://horizons-cdn.hostinger.com/04926cd8-9f1d-456a-9abb-01fdb16107d0/639bf295d038c63d902ebef24b92bfe1.png" 
               alt="WATFlight Logo" 
-              className={`h-16 md:h-20 w-auto object-contain transition-all duration-300 ${
+              className={`h-10 md:h-14 w-auto object-contain transition-all duration-300 ${
                 !isSolid ? 'invert' : ''
               }`}
             />
